@@ -28,4 +28,4 @@ Here are the mainly features.
 
 #### Performance consumption
 
-* [performance](document/hierarchyViewPerformance.md)
+* [performance](document/summary/hierarchyViewPerformance.md)
