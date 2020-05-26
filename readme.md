@@ -1,5 +1,20 @@
 ## Readme
 
+### Compile
+```
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        ...
+    }
+}
+dependencies {
+  com.github.momodae.CommonWidgets:common:1.0.0
+  com.github.momodae.CommonWidgets:zoomlayout:1.0.0
+  com.github.momodae.CommonWidgets:textview:1.0.0
+}
+```
+
 ### APK
 
 [download](https://github.com/momodae/LibraryResources/blob/master/CommonWidgets/file/app-debug.apk?raw=true)
