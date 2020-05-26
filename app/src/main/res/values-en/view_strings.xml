@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear">Clear</string>
+    <string name="view">View</string>
+    <string name="view_desc">A few common widgets</string>
+    <string name="view_frame">Frame</string>
+    <string name="view_frame_desc">Demonstrate how to change different frames inside view.</string>
+    <string name="view_frame_trigger">The Frame trigger</string>
+    <string name="view_frame_trigger_desc">Demonstrate how to use the event trigger..</string>
+    <string name="view_frame_view">FrameView</string>
+    <string name="view_frame_view_desc">Demonstrate how to use the FrameWrapper</string>
+    <string name="view_frame_view1">Customize view frame</string>
+    <string name="view_frame_view_desc1">Demonstrate custom view frame.</string>
+
+    <string-array name="frameArray">
+        <item>Content</item>
+        <item>Loading</item>
+        <item>Empty</item>
+        <item>Error</item>
+    </string-array>
+
+    <string-array name="states_array">
+        <item>State1</item>
+        <item>State2</item>
+        <item>State3</item>
+        <item>State4</item>
+        <item>State5</item>
+        <item>State6</item>
+        <item>State7</item>
+        <item>State8</item>
+        <item>State9</item>
+    </string-array>
+
+    <string name="view_input_hint">input some thing,please!</string>
+    <string name="view_input_empty_info">input empty!</string>
+    <string name="view_input_length_error">Input length error</string>
+    <string name="view_input_not_in_range">The password is not in text range.</string>
+    <string name="view_input_not_phone">Not phone number</string>
+
+    <string name="view_check">Validate</string>
+    <string name="view_verify">Verify</string>
+    <string name="view_receive_sms">Receive verification code</string>
+    <string name="view_input_sms_error">Please enter 6 digit verification code</string>
+    <string name="view_input_hint3">Type your password. The text range is 8-12</string>
+
+    <string name="view_sms_count_down">%dS re-sent the code.</string>
+    <string name="view_form">Verify form</string>
+    <string name="view_form_desc">Demonstrate how to verify different forms automatically</string>
+    <string name="view_input_hint1">Input your phone number</string>
+    <string name="view_input_hint2">Input your identify code</string>
+
+    <string name="view_state_image_view">StateImageView</string>
+    <string name="view_state_image_view_desc">Demonstrate multi-image state use custom drawable state</string>
+    <string name="view_state_text_view">StateTextView</string>
+    <string name="view_state_text_view_desc">Demonstrate multi-text state use custom text state</string>
+    <string name="view_test_text">xxxxxxxxxxxxxxxxx</string>
+    <string name="view_drag_view">DragLayout</string>
+    <string name="view_drag_view_desc">Demonstrate how to drag views</string>
+    <string name="view_drag_horizontally">Drag view horizontally</string>
+    <string name="view_drag_vertically">Drag view vertically</string>
+    <string name="view_drag_no_limitation">Drag view(no limitation)</string>
+    <string name="view_drag_handler">Drag view use the handle</string>
+    <string name="view_drag_hint">Drag this view</string>
+</resources>

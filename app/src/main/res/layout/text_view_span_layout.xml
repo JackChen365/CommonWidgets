@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/viewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <com.cz.widgets.textview.span.callback.SpannableImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:padding="12dp"
+        android:background="@drawable/text_round_primary_rect_selector"
+        android:contentDescription="Image1"/>
+
+    <com.cz.widgets.textview.span.callback.SpannableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="4dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:text="@string/text_text"
+        android:contentDescription="Text1"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <com.cz.widgets.textview.span.callback.SpannableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp"
+        android:textColor="@android:color/white"
+        android:contentDescription="Text2"
+        android:textSize="24sp"
+        android:text="@string/text_text"
+        android:background="@drawable/round_primary_rect_selector"/>
+
+    <com.cz.widgets.textview.span.callback.SpannableTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="Text3"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="@string/text_text"
+        android:background="?colorAccent"/>
+
+</LinearLayout>

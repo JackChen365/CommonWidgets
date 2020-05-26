@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@mipmap/ic_launcher" android:state_pressed="true"/>
+    <item android:drawable="@mipmap/text_image1" app:state1="true"/>
+    <item android:drawable="@mipmap/text_image2" app:state2="true"/>
+    <item android:drawable="@mipmap/text_image3" app:state3="true"/>
+    <item android:drawable="@mipmap/text_image4" app:state4="true"/>
+    <item android:drawable="@mipmap/text_image5" app:state5="true"/>
+    <item android:drawable="@mipmap/text_image6" app:state6="true"/>
+    <item android:drawable="@mipmap/text_image7" app:state7="true"/>
+    <item android:drawable="@mipmap/text_image8" app:state8="true"/>
+    <item android:drawable="@mipmap/text_image9" app:state9="true"/>
+
+</selector>

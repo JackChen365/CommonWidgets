@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@drawable/zoom_round_accent_item_selector">
+
+    <ImageView
+        android:id="@+id/userCover"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sampleLightGray"
+        android:layout_marginTop="8dp"
+        android:text="The 1 generation:"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/userDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sampleLightGray"
+        android:layout_marginTop="4dp"
+        android:textSize="13sp"
+        android:text="His profile."/>
+
+
+</LinearLayout>

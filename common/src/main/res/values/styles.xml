@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CommonWidgetStyle">
+    </style>s
+
+    <style name="StateTextView"/>
+    <style name="StateImageView"/>
+
+    <style name="DragFrameLayout"/>
+
+    <style name="FormatEditView"/>
+
+    <style name="DividerLinearLayout"/>
+
+    <style name="EditLayout">
+        <item name="edit_layout">@layout/view_default_edit_layout_view</item>
+        <item name="edit_textSize">12sp</item>
+    </style>
+
+</resources>

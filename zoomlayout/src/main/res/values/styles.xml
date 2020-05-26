@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ZoomLayout">
+        <item name="zoom_minimum">1</item>
+        <item name="zoom_maximum">3</item>
+    </style>
+
+    <style name="HierarchyLayout">
+    </style>
+
+    <style name="PreviewLayout">
+        <item name="preview_color">@android:color/white</item>
+        <item name="preview_strokeWidth">1dp</item>
+    </style>
+
+    <style name="SeatTable">
+    </style>
+</resources>

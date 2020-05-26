@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="commonWidgets" format="reference"/>
+    
+    <attr name="state1" format="boolean"/>
+    <attr name="state2" format="boolean"/>
+    <attr name="state3" format="boolean"/>
+    <attr name="state4" format="boolean"/>
+    <attr name="state5" format="boolean"/>
+    <attr name="state6" format="boolean"/>
+    <attr name="state7" format="boolean"/>
+    <attr name="state8" format="boolean"/>
+    <attr name="state9" format="boolean"/>
+
+    <declare-styleable name="StateTextView">
+        <attr name="stateEnabled" format="enum">
+            <enum name="state1" value="0x01"/>
+            <enum name="state2" value="0x02"/>
+            <enum name="state3" value="0x03"/>
+            <enum name="state4" value="0x04"/>
+            <enum name="state5" value="0x05"/>
+            <enum name="state6" value="0x06"/>
+            <enum name="state7" value="0x07"/>
+            <enum name="state8" value="0x08"/>
+            <enum name="state9" value="0x09"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="stateImageView" format="reference"/>
+    <declare-styleable name="StateImageView">
+        <attr name="image_text" format="string"/>
+        <attr name="image_textColor" format="color"/>
+        <attr name="image_textSize" format="dimension"/>
+        <attr name="image_textAppearance" format="reference"/>
+        <attr name="image_stateEnabled" format="enum">
+            <enum name="state1" value="0x01"/>
+            <enum name="state2" value="0x02"/>
+            <enum name="state3" value="0x03"/>
+            <enum name="state4" value="0x04"/>
+            <enum name="state5" value="0x05"/>
+            <enum name="state6" value="0x06"/>
+            <enum name="state7" value="0x07"/>
+            <enum name="state8" value="0x08"/>
+            <enum name="state9" value="0x09"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="dragFrameLayout" format="reference"/>
+    <declare-styleable name="DragLayout" >
+        <attr name="layout_dragHandle" format="reference"/>
+        <attr name="layout_dragMode" >
+            <flag name="horizontal" value="0x01"/>
+            <flag name="vertical" value="0x02"/>
+            <flag name="unlimited" value="0x04"/>
+        </attr>
+    </declare-styleable>
+
+    <attr name="formatEditLayout" format="reference"/>
+    <declare-styleable name="FormatEditText">
+        <attr name="format_text" format="string"/>
+    </declare-styleable>
+
+    <attr name="editLayout" format="reference"/>
+    <declare-styleable name="EditLayout">
+        <attr name="edit_layout" format="reference"/>
+        <attr name="edit_hintDrawable" format="reference"/>
+        <attr name="edit_hint" format="string"/>
+        <attr name="edit_text" format="string"/>
+        <attr name="edit_hintTextColor" format="color"/>
+        <attr name="edit_textColor" format="color"/>
+        <attr name="edit_textSize" format="dimension"/>
+        <attr name="edit_errorTextColor" format="color"/>
+        <attr name="edit_deleteDrawable" format="reference"/>
+        <attr name="edit_padding" format="dimension" />
+        <attr name="edit_errorText" format="string"/>
+        <attr name="edit_emptyErrorText" format="string"/>
+        <attr name="edit_background" format="reference"/>
+        <attr name="edit_patternValidator" format="string"/>
+        <attr name="edit_patterMinTextLength" format="integer"/>
+        <attr name="edit_patterMaxTextLength" format="integer"/>
+        <attr name="edit_validator" format="enum">
+            <enum name="any" value="0x00"/>
+            <enum name="number" value="0x01"/>
+            <enum name="character" value="0x02"/>
+            <enum name="email" value="0x04"/>
+            <enum name="phone" value="0x08"/>
+            <enum name="web_url" value="0x10"/>
+            <enum name="id" value="0x20"/>
+        </attr>
+        <attr name="edit_inputType">
+            <enum name="number" value="0x01"/>
+            <enum name="text" value="0x02"/>
+            <enum name="number_password" value="0x03"/>
+            <enum name="text_password" value="0x04"/>
+        </attr>
+        <attr name="edit_maxLength" format="integer"/>
+        <attr name="edit_maxLine" format="integer"/>
+    </declare-styleable>
+
+    <attr name="editForm" format="reference"/>
+    <attr name="editHintIcon" format="reference"/>
+    <attr name="editDeleteIcon" format="reference"/>
+
+    <declare-styleable name="FrameViewLayout">
+        <attr name="layout_content" format="boolean"/>
+    </declare-styleable>
+
+</resources>

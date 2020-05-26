@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="countDownTextView" format="reference"/>
+    <declare-styleable name="CountDownTextView">
+        <attr name="countdown_numberBackground" format="reference"/>
+        <attr name="countdown_separateBackground" format="reference"/>
+        <attr name="countdown_time" format="integer"/>
+    </declare-styleable>
+</resources>

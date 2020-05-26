@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:padding="12dp"
+                android:background="@color/md_grey_200"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textColor="@android:color/white"
+                android:background="?colorPrimary"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.cz.android.sample.library.view.RadioLayout
+        android:id="@+id/radioLayout"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:layout_gravity="right|bottom"
+        android:layout_height="wrap_content"
+        app:radio_items="@array/align_modes"/>
+</FrameLayout>

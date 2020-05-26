@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:text="Text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:gravity="center"
+            android:textSize="48sp"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/white"
+            android:text="Text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"
+            android:text="Text"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:text="Text"/>
+
+
+    </LinearLayout>
+
+    <com.cz.widgets.common.drag.DragLayout
+        android:id="@+id/dragLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7">
+
+                <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/md_grey_200"
+                        android:padding="8dp"
+                        android:text="@string/view_drag_horizontally"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"/>
+
+                <TextView
+                        android:id="@+id/dragView1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:textColor="@android:color/white"
+                        android:text="@string/view_drag_hint"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="?colorAccent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/title1"/>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_grey_200"
+                    android:padding="8dp"
+                    android:text="@string/view_drag_vertically"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dragView1"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+
+                <TextView
+                    android:id="@+id/dragView2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="?colorAccent"
+                    android:text="@string/view_drag_hint"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    app:layout_dragMode="vertical"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title2"/>
+
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_grey_200"
+                    android:padding="8dp"
+                    android:text="@string/view_drag_no_limitation"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dragView2"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <TextView
+                    android:id="@+id/dragView3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="@string/view_drag_hint"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:background="?colorAccent"
+                    app:layout_dragMode="horizontal|vertical|unlimited"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title3"/>
+
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_grey_200"
+                    android:padding="8dp"
+                    android:text="@string/view_drag_handler"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dragView3"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <LinearLayout
+                    android:id="@+id/noteLayout"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title4">
+
+                    <TextView
+                        android:id="@+id/viewHandler"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="12dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/md_white_1000"
+                        android:text="@string/view_drag_hint"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text"
+                        android:textSize="20sp"
+                        android:padding="8dp"
+                        android:background="@color/md_grey_200"/>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@color/md_white_1000">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/innerLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="12dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title4"
+                    android:layout_gravity="right|bottom"
+                    app:layout_dragMode="horizontal|vertical"
+                    app:layout_dragHandle="@id/viewHandler1">
+
+                    <TextView
+                        android:id="@+id/viewHandler1"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:paddingLeft="12dp"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/md_white_1000"
+                        android:text="@string/view_drag_hint"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_test_text"
+                        android:textSize="20sp"
+                        android:padding="8dp"
+                        android:background="@color/md_grey_200"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </com.cz.widgets.common.drag.DragLayout>
+
+</FrameLayout>

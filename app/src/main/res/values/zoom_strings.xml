@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zoom_layout">ZoomLayout</string>
+    <string name="zoom_layout_desc">演示缩放控件</string>
+    <string name="zoom_recycler_layout">RecyclerZoomLayout</string>
+    <string name="zoom_recycler_layout_desc">回收测试</string>
+    <string name="zoom_database">数据库</string>
+    <string name="zoom_database_desc">演示数据库表数据列</string>
+    <string name="zoom_hierarchy">HierarchyView</string>
+    <string name="zoom_hierarchy_desc">控件树视展示</string>
+    <string name="zoom">缩放视图</string>
+    <string name="zoom_desc">演示所有的缩放扩展视图</string>
+    <string name="zoom_hierarchy_recycler_layout">HierarchyRecyclerTest</string>
+    <string name="zoom_hierarchy_recycler_layout_desc">回收测试</string>
+    <string name="zoom_hierarchy_title">演示层级</string>
+    <string name="zoom_table">表格</string>
+    <string name="zoom_table_desc">演示表格</string>
+    <string name="zoom_tree_layout">TreeLayout</string>
+    <string name="zoom_tree_layout_desc">树形纵向结构展示</string>
+    <string name="zoom_theater">电影选座</string>
+    <string name="zoom_theater_desc">演示电影票选座复杂视图</string>
+    <string name="zoom_theater1">常规选座</string>
+    <string name="zoom_layout1_desc">常规少量数据满足需求的选座演示</string>
+    <string name="zoom_theater_recycler">回收测试</string>
+    <string name="zoom_theater_recycler_desc">测试选座排版回收</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State:"/>
+
+        <com.cz.widgets.common.state.StateImageView
+                android:id="@+id/stateImageView1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="12dp"
+                android:gravity="center"
+                android:src="@drawable/view_image_launcher_selector"
+                android:clickable="true"
+                app:image_text="Hello world!"
+                app:image_stateEnabled="state1"
+                app:image_textSize="20sp"
+                app:image_textColor="@color/view_custom_text_state_selector"
+                android:background="@drawable/view_custom_state_selector"/>
+
+        <com.cz.android.sample.library.view.RadioLayout
+                android:id="@+id/radioLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="right|bottom"
+                app:radio_items="@array/states_array"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

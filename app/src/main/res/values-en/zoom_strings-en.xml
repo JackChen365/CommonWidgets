@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zoom_layout">ZoomLayout</string>
+    <string name="zoom_layout_desc">Demonstrate the zoom layout</string>
+    <string name="zoom_recycler_layout">RecyclerZoomLayout</string>
+    <string name="zoom_recycler_layout_desc">The list data recycler test</string>
+    <string name="zoom_database">Database</string>
+    <string name="zoom_database_desc">Demonstrate database list.</string>
+    <string name="zoom_hierarchy">HierarchyView</string>
+    <string name="zoom_hierarchy_desc">Demonstrate the window hierarchy.</string>
+    <string name="zoom">Zoom</string>
+    <string name="zoom_desc">Demonstrate all different kinds zoom layout.</string>
+    <string name="zoom_hierarchy_recycler_layout">HierarchyRecyclerTest</string>
+    <string name="zoom_hierarchy_recycler_layout_desc">The table recycler test</string>
+    <string name="zoom_hierarchy_title">HierarchyLayout</string>
+    <string name="zoom_table">ZoomTable</string>
+    <string name="zoom_table_desc">Demonstrate the zoom table.</string>
+    <string name="zoom_tree_layout">TreeLayout</string>
+    <string name="zoom_tree_layout_desc">Demonstrate the tree vertically</string>
+    <string name="zoom_theater">ZoomTheater</string>
+    <string name="zoom_theater_desc">Demonstrate choice the seat in a theater</string>
+    <string name="zoom_theater1">Normal Theater</string>
+    <string name="zoom_layout1_desc">Demonstrate a few seat in the theater.</string>
+    <string name="zoom_theater_recycler">The table recycler test</string>
+    <string name="zoom_theater_recycler_desc">Test how to recycler the seat when it out of the screen while zooming the layout</string>
+</resources>

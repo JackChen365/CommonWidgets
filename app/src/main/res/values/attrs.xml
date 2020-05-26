@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tableZoomLayout" format="reference"/>
+    <declare-styleable name="TableZoomLayout">
+        <attr name="grid_columnPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

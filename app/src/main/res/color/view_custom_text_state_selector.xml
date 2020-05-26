@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/md_white_1000" android:state_pressed="true"/>
+    <item android:color="@color/md_orange_900" auto:state1="true"/>
+    <item android:color="@color/md_red_900" auto:state2="true"/>
+    <item android:color="@color/md_blue_900" auto:state3="true"/>
+    <item android:color="@color/md_brown_900" auto:state4="true"/>
+    <item android:color="@color/md_green_900" auto:state5="true"/>
+    <item android:color="@color/md_yellow_900" auto:state6="true"/>
+    <item android:color="@color/md_grey_900" auto:state7="true"/>
+    <item android:color="@color/md_pink_900" auto:state8="true"/>
+    <item android:color="@color/colorPrimaryDark" auto:state9="true"/>
+</selector>

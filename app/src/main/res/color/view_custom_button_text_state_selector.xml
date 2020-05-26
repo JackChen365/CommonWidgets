@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/md_white_1000" android:state_selected="true"/>
+    <item android:color="@color/md_blue_900" app:state1="true"/>
+    <item android:color="@color/md_grey_900" app:state2="true"/>
+    <item android:color="@color/md_green_900" app:state3="true"/>
+    <item android:color="@color/md_red_900" app:state4="true"/>
+    <item android:color="@color/md_yellow_900" app:state5="true"/>
+    <item android:color="@color/md_orange_900" app:state6="true"/>
+    <item android:color="@color/md_purple_900" app:state7="true"/>
+    <item android:color="@color/md_pink_900" app:state8="true"/>
+    <item android:color="@color/md_teal_900" app:state9="true"/>
+    <item android:color="@color/md_red_900" android:state_selected="false"/>
+</selector>

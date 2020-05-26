@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    frameView style========================================== -->
+    <!--    The error style-->
+    <attr name="frameErrorLayout" format="reference"/>
+    <attr name="frameErrorImage" format="reference"/>
+    <attr name="frameErrorText" format="reference"/>
+    <!--    The empty style-->
+    <attr name="frameEmptyLayout" format="reference"/>
+    <attr name="frameEmptyImage" format="reference"/>
+    <attr name="frameEmptyText" format="reference"/>
+    <!--    The process style-->
+    <attr name="frameProgressLayout" format="reference"/>
+    <attr name="frameProgress" format="reference"/>
+    <attr name="frameProgressText" format="reference"/>
+
+
+    <style name="FrameSmallStyle">
+        <!--        The progress layout-->
+        <item name="frameProgressLayout">@style/FrameProgressLayoutStyle</item>
+        <item name="frameProgress">@style/FrameProgressStyle</item>
+        <item name="frameProgressText">@style/FrameProgressSmallTextStyle</item>
+        <!--        The empty layout-->
+        <item name="frameEmptyLayout">@style/FrameEmptyLayoutStyle</item>
+        <item name="frameEmptyImage">@style/FrameEmptySmallImageStyle</item>
+        <item name="frameEmptyText">@style/FrameEmptySmallTextStyle</item>
+
+        <!--        The error layout-->
+        <item name="frameErrorLayout">@style/FrameErrorLayoutStyle</item>
+        <item name="frameErrorImage">@style/FrameErrorSmallImageStyle</item>
+        <item name="frameErrorText">@style/FrameErrorSmallTextStyle</item>
+    </style>
+
+    <style name="FrameSmallFullScreenStyle">
+        <!--        The progress layout-->
+        <item name="frameProgressLayout">@style/FrameProgressLayoutFullScreenStyle</item>
+        <item name="frameProgress">@style/FrameProgressStyle</item>
+        <item name="frameProgressText">@style/FrameProgressSmallTextStyle</item>
+        <!--        The empty layout-->
+        <item name="frameEmptyLayout">@style/FrameEmptyLayoutFullScreenStyle</item>
+        <item name="frameEmptyImage">@style/FrameEmptySmallImageStyle</item>
+        <item name="frameEmptyText">@style/FrameEmptySmallTextStyle</item>
+
+        <!--        The error layout-->
+        <item name="frameErrorLayout">@style/FrameErrorLayoutFullScreenStyle</item>
+        <item name="frameErrorImage">@style/FrameErrorSmallImageStyle</item>
+        <item name="frameErrorText">@style/FrameErrorSmallTextStyle</item>
+    </style>
+
+    <!--    The full screen style-->
+    <style name="FrameFullScreenStyle">
+        <!--        The progress layout-->
+        <item name="frameProgressLayout">@style/FrameProgressLayoutFullScreenStyle</item>
+        <item name="frameProgress">@style/FrameProgressStyle</item>
+        <item name="frameProgressText">@style/FrameProgressTextStyle</item>
+        <!--        The empty layout-->
+        <item name="frameEmptyLayout">@style/FrameEmptyLayoutFullScreenStyle</item>
+        <item name="frameEmptyImage">@style/FrameEmptyImageStyle</item>
+        <item name="frameEmptyText">@style/FrameEmptyTextStyle</item>
+        <!--        The error layout-->
+        <item name="frameErrorLayout">@style/FrameErrorLayoutFullScreenStyle</item>
+        <item name="frameErrorImage">@style/FrameErrorImageStyle</item>
+        <item name="frameErrorText">@style/FrameErrorTextStyle</item>
+    </style>
+
+    <style name="FrameStyle">
+        <!--        The progress layout-->
+        <item name="frameProgressLayout">@style/FrameProgressLayoutStyle</item>
+        <item name="frameProgress">@style/FrameProgressStyle</item>
+        <item name="frameProgressText">@style/FrameProgressTextStyle</item>
+        <!--        The empty layout-->
+        <item name="frameEmptyLayout">@style/FrameEmptyLayoutStyle</item>
+        <item name="frameEmptyImage">@style/FrameEmptyImageStyle</item>
+        <item name="frameEmptyText">@style/FrameEmptyTextStyle</item>
+        <!--        The error layout-->
+        <item name="frameErrorLayout">@style/FrameErrorLayoutStyle</item>
+        <item name="frameErrorImage">@style/FrameErrorImageStyle</item>
+        <item name="frameErrorText">@style/FrameErrorTextStyle</item>
+    </style>
+
+    <style name="FrameEmptyLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/view_accent_border_drawable</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FrameEmptyLayoutFullScreenStyle" parent="FrameEmptyLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FrameEmptyImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/view_frame_item_selector</item>
+        <item name="android:src">@mipmap/frame_empty</item>
+    </style>
+
+    <style name="FrameEmptySmallImageStyle" parent="FrameEmptyImageStyle">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+
+    <style name="FrameEmptyTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/md_grey_800</item>
+        <item name="android:background">@drawable/view_frame_item_selector</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:text">@string/load_empty</item>
+    </style>
+
+    <style name="FrameEmptySmallTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">@color/md_grey_800</item>
+        <item name="android:background">@drawable/view_frame_item_selector</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@string/load_empty</item>
+    </style>
+
+    <style name="FrameErrorLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/view_accent_border_drawable</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="FrameErrorLayoutFullScreenStyle" parent="FrameErrorLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FrameErrorImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/frame_error</item>
+    </style>
+
+    <style name="FrameErrorSmallImageStyle" parent="FrameErrorImageStyle">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+    </style>
+
+    <style name="FrameErrorTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:text">@string/frame_error_info</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FrameErrorSmallTextStyle" parent="FrameErrorTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FrameProgressLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="FrameProgressLayoutFullScreenStyle" parent="FrameProgressLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FrameProgressStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FrameProgressTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:text">@string/frame_loading</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FrameProgressSmallTextStyle" parent="FrameProgressTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <string name="load_empty">There is nothing.</string>
+    <string name="frame_error_info">There have somethings wrong.</string>
+    <string name="frame_loading">Loading...</string>
+</resources>

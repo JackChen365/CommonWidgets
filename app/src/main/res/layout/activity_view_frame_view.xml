@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_grey_200"
+                    android:padding="8dp"
+                    android:text="非全屏占满,且采用约束图片大小,以及文字尺寸" />
+
+            <FrameLayout
+                    android:id="@+id/frameView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/frameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:minWidth="200dp"
+                    android:paddingTop="42dp"
+                    android:paddingBottom="42dp"
+                    android:paddingLeft="42dp"
+                    android:paddingRight="42dp"
+                    android:text="Content"
+                    android:textColor="@android:color/white"
+                    android:textSize="42sp" />
+
+                <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="24dp">
+
+                    <Button
+                            android:id="@+id/testButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Test"/>
+                    </FrameLayout>
+            </FrameLayout>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/md_grey_200"
+                    android:padding="8dp"
+                    android:text="全屏占满(空布局存在点击事件)" />
+
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="60dp">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimaryDark"
+                            android:gravity="center"
+                            android:padding="48dp"
+                            android:text="Content1"
+                            android:textColor="@android:color/white"
+                            android:textSize="42sp" />
+
+                    <FrameLayout
+                            android:id="@+id/frameView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimaryDark"
+                            android:gravity="center"
+                            android:padding="48dp"
+                            android:text="Content2"
+                            android:textColor="@android:color/white"
+                            android:textSize="42sp" />
+                    </FrameLayout>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@color/colorPrimaryDark"
+                            android:gravity="center"
+                            android:padding="48dp"
+                            android:text="Content3"
+                            android:textColor="@android:color/white"
+                            android:textSize="42sp" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:orientation="vertical">
+
+        <Button
+            android:id="@+id/changeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:text="Change"/>
+        <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+
+            <com.cz.android.sample.library.view.RadioLayout
+                    android:id="@+id/radioLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    app:radio_items="@array/frameArray"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+</FrameLayout>

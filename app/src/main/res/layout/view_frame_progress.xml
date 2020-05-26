@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frameProgress"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/progress_container"
+        style="?frameProgressLayout">
+
+        <ProgressBar
+            android:id="@+id/progressView"
+            style="?frameProgress"/>
+
+        <TextView
+            android:id="@+id/progressText"
+            style="?frameProgressText"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="treeHorizontalSpacing">40dp</dimen>
+    <dimen name="treeVerticalSpacing">10dp</dimen>
+
+    <dimen name="hierarchyStrokeWidth">1dp</dimen>
+</resources>

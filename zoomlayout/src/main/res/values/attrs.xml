@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="zoomLayout" format="reference"/>
+    <declare-styleable name="ZoomLayout">
+        <attr name="zoom_minimum" format="float"/>
+        <attr name="zoom_maximum" format="float"/>
+        <attr name="zoom_enabled" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="hierarchyLayout" format="reference"/>
+    <declare-styleable name="HierarchyLayout">
+        <attr name="hierarchy_horizontalSpacing" format="dimension"/>
+        <attr name="hierarchy_verticalSpacing" format="dimension"/>
+        <attr name="hierarchy_setHasFixedSize" format="boolean"/>
+        <attr name="hierarchy_previewWidth" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="previewLayout" format="reference"/>
+    <declare-styleable name="PreViewLayout">
+        <attr name="preview_color" format="color"/>
+        <attr name="preview_strokeWidth" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="seatTable" format="reference"/>
+    <declare-styleable name="SeatTable">
+    </declare-styleable>
+</resources>
