@@ -19,17 +19,17 @@ Here are all the features we support.
 
 #### About the drawable span.
 
-* [DrawableSpan](docuemnt/text_drawable.md)
-* [ViewSpan](docuemnt/text_drawable.md)
+* [DrawableSpan](document/text_drawable.md)
+* [ViewSpan](document/text_drawable.md)
 
 #### About the text animation.
 
-* [TextAnimation](docuemnt/text_animation.md)
+* [TextAnimation](document/text_animation.md)
 
 #### About the text transition
 
-* [TextTransition](docuemnt/text_transition.md)
+* [TextTransition](document/text_transition.md)
 
 #### About the text widget.
 
-* [Widget](docuemnt/widgets.md)
+* [Widget](document/widgets.md)

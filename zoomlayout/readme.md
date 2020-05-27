@@ -11,11 +11,11 @@ Here are the mainly features.
 
 #### The implementations.
 
-* [TableLayout](docuemnt/table.md)
+* [TableLayout](document/table.md)
 
-* [HierarchyLayout](docuemnt/hierarchy.md)
+* [HierarchyLayout](document/hierarchy.md)
 
-* [SeatTable](docuemnt/seat_table.md)
+* [SeatTable](document/seat_table.md)
 
 
 #### Pictures
@@ -28,4 +28,4 @@ Here are the mainly features.
 
 #### Performance consumption
 
-* [performance](document/hierarchyViewPerformance.md)
+* [performance](document/summary/hierarchyViewPerformance.md)
