@@ -133,7 +133,6 @@ public class VerticalHierarchyLayout extends RecyclerZoomLayout implements Previ
         int top=paddingTop+hierarchyNode.depth * decoratedMeasuredHeight;
         layoutDecorated(child,left,top,left+decoratedMeasuredWidth,top+decoratedMeasuredHeight);
         offsetChild(child,-layoutState.scrollX,-layoutState.scrollY);
-        Log.i(TAG,"addHierarchyViewInternal:"+hierarchyNode.centerBreadth+" depth:"+hierarchyNode.depth+" left:"+child.getLeft()+" top:"+child.getTop()+" right:"+child.getRight()+" bottom:"+child.getBottom()+" scrollX:"+layoutState.scrollX+" scrollY:"+layoutState.scrollY);
         addAdapterView(child,-1);
         return child;
     }

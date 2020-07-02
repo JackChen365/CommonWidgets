@@ -9,9 +9,9 @@ allprojects {
     }
 }
 dependencies {
-  com.github.momodae.CommonWidgets:common:1.0.0
-  com.github.momodae.CommonWidgets:zoomlayout:1.0.0
-  com.github.momodae.CommonWidgets:textview:1.0.0
+  com.github.momodae.CommonWidgets:common:1.0.1
+  com.github.momodae.CommonWidgets:zoomlayout:1.0.1
+  com.github.momodae.CommonWidgets:textview:1.0.1
 }
 ```
 

@@ -79,7 +79,7 @@ public class VerticalHierarchyItemDecoration extends ItemDecoration {
         float bottom=layoutRect.bottom;
         float centerX=layoutRect.centerX();
         layoutRect = getLayoutRect(childView, toNode, matrixScaleX, matrixScaleY);
-        canvas.drawLine(centerX, bottom, layoutRect.left, layoutRect.centerX(),paint);
+        canvas.drawLine(centerX, bottom, layoutRect.centerX(), layoutRect.top,paint);
     }
 
     private<E> RectF getLayoutRect(View childView,TreeNode<E> treeNode,float scaleX,float scaleY){

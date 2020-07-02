@@ -27,7 +27,7 @@ class ZoomVerticalHierarchySampleActivity :
         val dataProvider = DataManager.getDataProvider(this)
 
         val colorArrayLength = DataProvider.COLOR_BLUE_GREY
-        for(i in 0 until 1){
+        for(i in 0 until colorArrayLength){
             val colorArray = dataProvider.getColorArray(i)
             val levelFrameLayout = layoutInflater.inflate(
                 R.layout.zoom_view_hierarchy_test_item,
