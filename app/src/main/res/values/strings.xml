@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">控件演示</string>
+    <string name="zoom_hierarchy_title2">VerticalHierarchyView</string>
+    <string name="zoom_hierarchy_desc2">The hierarchy view vertically</string>
 </resources>

@@ -54,7 +54,7 @@ public class TreeNodeIndexer<E> {
         //Step:1 post-order traverse all the tree node to know the breadth and the depth of the tree.
         postOrderTraversal(root,0);
         //Step:2 build a table by using the pre-render node's size.
-        traversalHierarchyTree(root,nodeWidth,nodeHeight,horizontalArray,verticalArray);
+        traversalHierarchyTree(root,nodeWidth,nodeHeight,orientation,horizontalArray,verticalArray);
         //Step:3 Put all the nodes to the sparse array
         organizeTreeNodes(root);
 
@@ -101,14 +101,21 @@ public class TreeNodeIndexer<E> {
     /**
      * Traverse all the tree nodes all at once.
      */
-    private void traversalHierarchyTree(TreeNode<E> node, int nodeWidth, int nodeHeight, SparseIntArray horizontalArray, SparseIntArray verticalArray) {
-        int left=node.depth*nodeWidth;
-        int top=node.centerBreadth*nodeHeight;
-        horizontalArray.put(node.depth,left);
-        verticalArray.put(node.centerBreadth,top);
+    private void traversalHierarchyTree(TreeNode<E> node, int nodeWidth, int nodeHeight,int orientation, SparseIntArray horizontalArray, SparseIntArray verticalArray) {
+        if(RecyclerZoomLayout.HORIZONTAL==orientation){
+            int left=node.depth*nodeWidth;
+            int top=node.centerBreadth*nodeHeight;
+            horizontalArray.put(node.depth,left);
+            verticalArray.put(node.centerBreadth,top);
+        } else if(RecyclerZoomLayout.VERTICAL==orientation){
+            int left=node.centerBreadth*nodeWidth;
+            int top=node.depth*nodeHeight;
+            horizontalArray.put(node.centerBreadth,left);
+            verticalArray.put(node.depth,top);
+        }
         //Continue loop;
         for(TreeNode<E> child:node.children){
-            traversalHierarchyTree(child,nodeWidth,nodeHeight,horizontalArray,verticalArray);
+            traversalHierarchyTree(child,nodeWidth,nodeHeight,orientation,horizontalArray,verticalArray);
         }
     }
 

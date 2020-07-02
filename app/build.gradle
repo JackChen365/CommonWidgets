@@ -43,6 +43,6 @@ dependencies {
     implementation project(path: ':textview')
     implementation project(path: ':common')
 
-    implementation "com.github.momodae.AndroidSampleLibrary:library:1.0.8"
+    implementation "com.github.momodae.AndroidSampleLibrary:library:$sample_version"
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }

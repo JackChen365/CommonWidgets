@@ -14,6 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".zoomlayout.hierarchy.ZoomVerticalHierarchySampleActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".zoomlayout.theater.test.TheaterRecyclerTestActivity" />
         <activity android:name=".zoomlayout.theater.TheaterSample1Activity" />
         <activity android:name=".zoomlayout.tree.TreeLayoutSampleActivity" />
@@ -29,8 +29,7 @@
         <activity android:name=".zoomlayout.hierarchy.ZoomHierarchySampleActivity" />
         <activity android:name=".zoomlayout.table.test.ZoomLayoutRecycleSampleActivity" />
         <activity android:name=".zoomlayout.table.TableZoomLayoutSampleActivity" />
-        <activity android:name=".zoomlayout.database.DatabaseSampleActivity" />
-        <!-- All the activities about text -->
+        <activity android:name=".zoomlayout.database.DatabaseSampleActivity" /> <!-- All the activities about text -->
         <activity android:name=".textview.aniamtion.AnimationTextControllerSampleActivity" />
         <activity android:name=".textview.aniamtion.FlyingTextSampleActivity" />
         <activity android:name=".textview.aniamtion.TypeAnimationSampleActivity" />
@@ -43,15 +42,13 @@
         <activity android:name=".textview.transition.CountDownTextTransitionSampleActivity" />
         <activity android:name=".textview.other.CountDownTextActivity" />
         <activity android:name=".textview.other.table.TableLayoutSampleActivity" />
-
-
-        <activity android:name=".view.form.FormSampleActivity"/>
-        <activity android:name=".view.state.StateTextViewActivity"/>
-        <activity android:name=".view.state.StateImageViewActivity"/>
-        <activity android:name=".view.drag.DragLayoutActivity"/>
-        <activity android:name=".view.frame.FrameViewSampleActivity"/>
-        <activity android:name=".view.frame.FrameViewActivity"/>
-        <activity android:name=".view.frame.FrameTriggerActivity"/>
+        <activity android:name=".view.form.FormSampleActivity" />
+        <activity android:name=".view.state.StateTextViewActivity" />
+        <activity android:name=".view.state.StateImageViewActivity" />
+        <activity android:name=".view.drag.DragLayoutActivity" />
+        <activity android:name=".view.frame.FrameViewSampleActivity" />
+        <activity android:name=".view.frame.FrameViewActivity" />
+        <activity android:name=".view.frame.FrameTriggerActivity" />
     </application>
 
 </manifest>

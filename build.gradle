@@ -2,6 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.3.41'
+    ext.sample_version = '1.1.5'
     repositories {
         maven { url 'https://jitpack.io' }
         google()
@@ -11,7 +12,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
-        classpath 'com.github.momodae.AndroidSampleLibrary:plugin:1.0.8'
+        classpath "com.github.momodae.AndroidSampleLibrary:plugin:$sample_version"
         classpath 'com.github.momodae.UploadPlugin:jitpack:1.0.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
