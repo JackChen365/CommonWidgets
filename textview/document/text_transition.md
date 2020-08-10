@@ -2,7 +2,7 @@
 
 The text transition is when you re-set text into the widget. How we transform the text.
 
-The picture above show you how we transform the text.
+The picture below show you how we transform the text.
 
 ![text_transition](https://github.com/momodae/LibraryResources/blob/master/CommonWidgets/image/text_transition.gif?raw=true)
 
