@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:state1="true">
+        <layer-list android:paddingLeft="12dp">
+            <item android:drawable="@color/md_green_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state2="true">
+        <layer-list android:paddingLeft="24dp">
+            <item android:drawable="@color/md_yellow_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state3="true">
+        <layer-list android:paddingLeft="36dp">
+            <item android:drawable="@color/md_pink_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state4="true">
+        <layer-list android:paddingLeft="48dp">
+            <item android:drawable="@color/md_red_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state5="true">
+        <layer-list android:paddingLeft="60dp">
+            <item android:drawable="@color/colorPrimaryDark" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state6="true">
+        <layer-list android:paddingLeft="72dp">
+            <item android:drawable="@color/md_purple_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state7="true">
+        <layer-list android:paddingLeft="84dp">
+            <item android:drawable="@color/md_blue_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state8="true">
+        <layer-list android:paddingLeft="96dp">
+            <item android:drawable="@color/md_orange_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+    <item app:state9="true">
+        <layer-list android:paddingLeft="108dp">
+            <item android:drawable="@color/md_teal_900" android:width="10dp" android:height="10dp"/>
+        </layer-list>
+    </item>
+</selector>

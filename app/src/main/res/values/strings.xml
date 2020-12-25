@@ -2,4 +2,7 @@
     <string name="app_name">控件演示</string>
     <string name="zoom_hierarchy_title2">VerticalHierarchyView</string>
     <string name="zoom_hierarchy_desc2">The hierarchy view vertically</string>
+    <string name="view_state_mark_view">多状态标记</string>
+    <string name="view_state_mark_view_desc">演示多状态标志扩展控件</string>
+    <string name="text_span_title">文本测试</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="commonWidgets" format="reference"/>
-    
+
     <attr name="state1" format="boolean"/>
     <attr name="state2" format="boolean"/>
     <attr name="state3" format="boolean"/>

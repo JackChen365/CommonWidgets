@@ -16,7 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".zoomlayout.hierarchy.ZoomVerticalHierarchySampleActivity"></activity>
+        <activity android:name=".view.state.StateMarkLayoutActivity"></activity>
+        <activity android:name=".textview.TextViewSampleActivity" />
+        <activity android:name=".zoomlayout.hierarchy.ZoomVerticalHierarchySampleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State:"/>
+
+        <com.cz.widgets.common.state.StateMarkLayout
+            android:id="@+id/stateMarkLayout"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="12dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Hello world!"
+            app:stateEnabled="state1"
+            android:background="@drawable/view_state_mark_selector"/>
+
+        <com.cz.widgets.sample.view.state.CheckedLayout
+            android:id="@+id/checkedLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right|bottom"
+            app:checked_array="@array/states_array"/>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

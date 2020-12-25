@@ -9,12 +9,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.cz.android.sample.api.Exclude
 import com.cz.widgets.sample.R
 import com.cz.widgets.sample.data.Data
 import com.cz.widgets.zoomlayout.tree.TreeLayout
 import com.cz.widgets.zoomlayout.tree.TreeNode
 import kotlinx.android.synthetic.main.activity_tree_layout_sample.*
 
+@Exclude
 //@RefRegister(title= R.string.zoom_tree_layout,desc = R.string.zoom_tree_layout_desc,category = R.string.zoom)
 class TreeLayoutSampleActivity : AppCompatActivity() {
 

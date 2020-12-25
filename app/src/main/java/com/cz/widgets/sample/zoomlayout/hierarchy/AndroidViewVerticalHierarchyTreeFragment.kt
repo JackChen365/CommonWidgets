@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.cz.android.sample.api.Exclude
 import com.cz.widgets.sample.R
 import com.cz.widgets.sample.zoomlayout.decoration.VerticalHierarchyItemDecoration
 import com.cz.widgets.zoomlayout.tree.TreeNode
@@ -18,6 +19,7 @@ import kotlinx.android.synthetic.main.fragment_zoom_vertical_hierarchy_sample.*
 /**
  * Created by cz on 2017/10/13.
  */
+@Exclude
 class AndroidViewVerticalHierarchyTreeFragment : Fragment(){
     private lateinit var node: TreeNode<View>
     companion object {
